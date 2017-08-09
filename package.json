@@ -1,0 +1,37 @@
+{
+  "name": "qlik-sense-extension-environment",
+  "version": "1.0.0",
+  "description": "qlik sense extension",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js template",
+    "watch": "node scripts/build.js template --watch",
+    "deploy": "node scripts/build.js template --deploy",
+    "deploy-watch": "node scripts/build.js template --watch --deploy" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabellizzi/qlik-sense-extension-environment.git"
+  },
+  "keywords": [
+    "qlik",
+    "sense",
+    "extension"
+  ],
+  "author": "John Bellizzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabellizzi/qlik-sense-extension-environment/issues"
+  },
+  "homepage": "https://github.com/jabellizzi/qlik-sense-extension-environment#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "fs-extra": "^4.0.1",
+    "rxjs": "^5.4.2",
+    "rxq": "^0.6.7",
+    "webpack": "^3.4.1",
+    "zip-dir": "^1.0.2"
+  }
+}
